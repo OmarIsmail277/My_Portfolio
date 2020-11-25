@@ -675,6 +675,7 @@ img {
   }
   #contact-a button[type=submit] {
     margin: 1rem 0;
+    width: 50%;
   }
   #contact-b {
     padding: 1.3rem 0;
