@@ -652,12 +652,15 @@ img {
   }
 
   #contact-a {
+    margin: 0 auto;
     padding-bottom: 1rem;
   }
   #contact-a p.lead {
     margin-bottom: 10px;
   }
   #contact-a .text-fields {
+    margin-bottom: 0;
+    width: auto;
     grid-template-areas: "name" "subject" "email" "phone" "message";
   }
   #contact-a .text-fields .message-input {
@@ -665,9 +668,10 @@ img {
   }
   #contact-a button[type=submit] {
     margin-bottom: 1rem;
+    width: 50%;
   }
   #contact-b {
-    padding: 1.5rem 0;
+    padding: 1.3rem 0;
   }
   #contact-b div {
     border-bottom: 1px solid #3498db;
