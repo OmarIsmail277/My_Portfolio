@@ -452,8 +452,6 @@ img {
 }
 
 #contact-a .text-fields {
-  width: 70%;
-  margin: 0 auto;
   display: grid;
   grid-template-areas: "name email" "subject phone" "message  message";
   gap: 1.3rem;
@@ -482,7 +480,7 @@ img {
   border: 1px solid #3498db;
 }
 #contact-a button {
-  width: 30%;
+  width: 50%;
   box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.5);
   border-radius: 50px;
   outline: none;
@@ -573,6 +571,23 @@ img {
   }
   #about-d .testimonials {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 320px) {
+  #contact-a {
+    padding-bottom: 1rem;
+  }
+  #contact-a .text-fields {
+    margin-bottom: 0;
+    width: 200px !important;
+    margin: 0 auto !important;
+  }
+  #contact-a .text-fields .message-input {
+    height: 100px;
+  }
+  #contact-a button[type=submit] {
+    margin: 1rem 0;
+    width: 50% !important;
   }
 }
 @media (max-width: 600px) {
@@ -667,7 +682,7 @@ img {
     height: 100px;
   }
   #contact-a button[type=submit] {
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     width: 50%;
   }
   #contact-b {

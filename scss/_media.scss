@@ -41,6 +41,30 @@
     }
   }
 }
+
+@media (max-width: 320px) {
+  #contact {
+    &-a {
+      padding-bottom: 1rem;
+
+      .text-fields {
+        // margin-top: 10px;
+        margin-bottom: 0;
+        // width: 30% !important;
+        width: 200px !important;
+        margin: 0 auto !important;
+
+        .message-input {
+          height: 100px;
+        }
+      }
+      button[type="submit"] {
+        margin: 1rem 0;
+        width: 50% !important;
+      }
+    }
+  }
+}
 // Smartphones
 @media (max-width: 600px) {
   #main-nav {
