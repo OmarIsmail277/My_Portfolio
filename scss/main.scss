@@ -357,6 +357,12 @@ img {
         outline: none;
         border: 1px solid $main-color;
       }
+
+      .captcha {
+        div {
+          max-width: 200px;
+        }
+      }
     }
 
     button {

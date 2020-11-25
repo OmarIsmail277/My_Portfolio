@@ -482,6 +482,9 @@ img {
   outline: none;
   border: 1px solid #3498db;
 }
+#contact-a .text-fields .captcha div {
+  max-width: 200px;
+}
 #contact-a button {
   width: 30%;
   max-width: 300px;
