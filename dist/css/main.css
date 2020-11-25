@@ -482,10 +482,6 @@ img {
   outline: none;
   border: 1px solid #3498db;
 }
-#contact-a .text-fields .recap > div > div {
-  transform: scale(0.75);
-  transform-origin: 0 0;
-}
 #contact-a button {
   width: 30%;
   max-width: 300px;
@@ -671,6 +667,10 @@ img {
   }
   #contact-a .text-fields .message-input {
     height: 100px;
+  }
+  #contact-a .text-fields .recap > div > div {
+    transform: scale(0.75);
+    transform-origin: 0 0;
   }
   #contact-a button[type=submit] {
     margin: 1rem 0;
